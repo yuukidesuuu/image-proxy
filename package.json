@@ -1,0 +1,36 @@
+{
+  "name": "image-proxy",
+  "version": "1.0.0",
+  "description": "An image processing application made in Node.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npx tsc && node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuukidesuuu/image-proxy.git"
+  },
+  "keywords": [
+    "image",
+    "processing",
+    "image-processing",
+    "image-proxy",
+    "proxy"
+  ],
+  "author": "Nakamoto Yuuki <nakamoto.yuukii@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuukidesuuu/image-proxy/issues"
+  },
+  "homepage": "https://github.com/yuukidesuuu/image-proxy#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.37",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jimp": "^0.16.1",
+    "tslib": "^2.1.0"
+  }
+}
