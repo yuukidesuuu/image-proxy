@@ -1,5 +1,5 @@
-import { fork, isMaster, on, setupMaster } from "node:cluster";
-import { cpus } from "node:os";
+import { fork, isMaster, on, setupMaster } from "cluster";
+import { cpus } from "os";
 
 if (isMaster) {
   setupMaster({
